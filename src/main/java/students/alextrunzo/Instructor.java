@@ -3,8 +3,8 @@ package students.alextrunzo;
 import java.util.ArrayList;
 
 public class Instructor extends Person{
-    String department;
-    ArrayList<Student> students;
+    private String department;
+    private ArrayList<Student> students;
 
     public Instructor(int id, String firstName, String lastName, String email, String department) {
         super(id, firstName, lastName, email);

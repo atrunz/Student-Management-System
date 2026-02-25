@@ -1,10 +1,10 @@
 package students.alextrunzo;
 
 public abstract class Person {
-    int id;
-    String firstName;
-    String lastName;
-    String email;
+    private int id;
+    private String firstName;
+    private String lastName;
+    private String email;
 
     public Person(int id, String firstName, String lastName, String email) {
         this.id = id;

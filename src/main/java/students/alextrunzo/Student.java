@@ -1,8 +1,8 @@
 package students.alextrunzo;
 
 public class Student extends Person{
-    int gradeLevel;
-    double gpa;
+    private int gradeLevel;
+    private double gpa;
 
 
     public Student(int id, String firstName, String lastName, String email, int gradeLevel, double gpa) {
