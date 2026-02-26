@@ -12,8 +12,10 @@ public class Student extends Person{
     }
     @Override
     public void getSummary() {
+        System.out.print("[Student] ");
         super.getSummary();
-        System.out.println(gradeLevel + gpa);
+        System.out.print(" " + "Grade Level: " + gradeLevel + " |" + " GPA: " + gpa + "\n");
+
     }
 
     public boolean isOnHonorRoll(){

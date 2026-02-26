@@ -1,5 +1,7 @@
 package students.alextrunzo;
 
+import java.util.ArrayList;
+
 public abstract class Person {
     private int id;
     private String firstName;
@@ -14,6 +16,13 @@ public abstract class Person {
     }
 
     public void getSummary(){
-        System.out.println(id + firstName + lastName + email);
+        //System.out.println(id + firstName + lastName + email);
+
+        System.out.print(firstName + " " + lastName + " |");
     }
+
+    public String getFirstName(){
+        return firstName;
+    }
+
 }
